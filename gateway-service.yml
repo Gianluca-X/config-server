@@ -11,7 +11,6 @@ spring:
       discovery:
         serviceId: config-service
         enabled: true
-
   gateway:
    routes:
     - id: checkout-service
